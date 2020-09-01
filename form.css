@@ -1,0 +1,50 @@
+body
+{
+	
+	font-family: sans-serif;
+	background-image:url("bulb.jpg");
+	background-color:#cccccc;
+	background-size: cover;
+	background-position:center;
+}
+.sign-up-form
+{
+	width: 400px;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+	background::
+	padding:20px;
+	margin:8% auto 0;
+	text-align:center;
+	
+}
+.sign-up-form h1
+{
+	color: #1c8adb;
+	margin-bottom: 30px;
+}
+.input-box
+{
+	border-radius:20px;
+	padding:10px;
+	margin:10px 0;
+	width:100%;
+	border: 10px solid #999:
+	outline:black;
+}
+button {
+	color:#fff;
+	width: 100%;
+	padding: 10px;
+	border-radius:20px;
+	font-size:15px;
+	margin:10px 0;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	
+	}
+	.Sign-up-btn
+	{
+		background-color: #1c8adb;
+	}
+	

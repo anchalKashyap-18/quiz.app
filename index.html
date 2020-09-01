@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login Form </title>
+		<style>
+		body{
+		background-color:#33FF93;
+		}
+		.login-form {
+		background: #B5FF33;
+			width: 300px;
+			margin: 0 auto;
+			font-family: Tahoma, Geneva, sans-serif;
+			
+		}
+	
+		.header {
+		background: #23cdeb;
+			text-align: center;
+			color: #4d4d4d;
+			font-size: 40px;
+			padding: 20px 0 20px 0;
+		}
+		.login-form h1 {
+		background: #FF5733;
+			text-align: center;
+			color: #4d4d4d;
+			font-size: 24px;
+			padding: 20px 0 20px 0;
+		}
+		.login-form input[type="password"],
+		.login-form input[type="text"] {
+			width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box;
+		}
+		.login-form input[type="submit"] {
+			width: 100%;
+			padding: 15px;
+			background-color: #0ca3d2;
+			border: 0;
+			box-sizing: border-box;
+			cursor: pointer;
+			font-weight: bold;
+			color: #ffffff;
+		}
+		.heading{
+		height: 100%;
+		display: table;
+		float: center;
+		color:#003322;
+		height:100%;
+		display: table-cell;
+		vertical-align: middle;
+		font-family: 'Montserrat';
+		font-size: 40px;
+	
+	
+		}
+		</style>
+	</head>
+	<body>
+	
+		
+		
+		<div class="heading">
+		<h2> WECLOME TO QUIZ APP</h2>
+		</div>
+		<div class="login-form">
+			<h1>Login Form</h1>
+			<form action="/submit" method="POST">
+				<input type="text" name="email" placeholder="Email" required>
+				<input type="password" name="password" placeholder="Password" required>
+				<input type="submit">
+			</form>
+		</div>
+	</body>
+</html>
